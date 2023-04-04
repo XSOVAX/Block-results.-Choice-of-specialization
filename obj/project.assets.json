@@ -8,24 +8,29 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\teacher\\.nuget\\packages\\": {}
+    "/Users/lenar/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teacher\\Documents\\Block_results_Choice_of_specialization\\Block_results_Choice_of_specialization.csproj",
+      "projectUniqueName": "/Users/lenar/Выбор специализации/Block_results_Choice_of_specialization.csproj",
       "projectName": "Block_results_Choice_of_specialization",
-      "projectPath": "C:\\Users\\teacher\\Documents\\Block_results_Choice_of_specialization\\Block_results_Choice_of_specialization.csproj",
-      "packagesPath": "C:\\Users\\teacher\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teacher\\Documents\\Block_results_Choice_of_specialization\\obj\\",
+      "projectPath": "/Users/lenar/Выбор специализации/Block_results_Choice_of_specialization.csproj",
+      "packagesPath": "/Users/lenar/.nuget/packages/",
+      "outputPath": "/Users/lenar/Выбор специализации/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\teacher\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/lenar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
