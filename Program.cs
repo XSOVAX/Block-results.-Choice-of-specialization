@@ -1,3 +1,4 @@
+// Ввод данных в заданный массив
 string [] fill_array(int size_array){
     string[] array = new string[size_array];
     for (int i = 0; i < size_array; i++){
@@ -7,6 +8,7 @@ string [] fill_array(int size_array){
     return array;
 }
 
+// Обработка массива данных и поиск элементов не привышающих по длине три
 string [] array_proccessing(string [] array){
     int size_array = array.Length;
     int size_array_proccessing = size_array;
@@ -21,6 +23,7 @@ string [] array_proccessing(string [] array){
     return proccessing_result;
 }
 
+// Вывод массива в заданном формате в квадратных скобочках через ;
 void print_array(string[] array){
     int size_array = array.Length;
     Console.Write("[");
