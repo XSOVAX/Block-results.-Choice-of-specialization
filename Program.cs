@@ -1,5 +1,5 @@
 // Ввод данных в заданный массив
-string [] fill_array(int size_array){
+string[] fill_array(int size_array){
     string[] array = new string[size_array];
     for (int i = 0; i < size_array; i++){
         Console.Write($"Введите {i + 1} из {size_array} эллемент >> ");
@@ -9,9 +9,8 @@ string [] fill_array(int size_array){
 }
 
 // Обработка массива данных и поиск элементов не привышающих по длине три
-string [] array_proccessing(string [] array){
+string[] array_proccessing(string[] array){
     int size_array = array.Length;
-    int size_array_proccessing = size_array;
     string[] proccessing_result = new string[] {};
     for(int i = 0; i < size_array; i++){
         string element_array = array[i];
@@ -37,7 +36,7 @@ void print_array(string[] array){
 }
 
 Console.Write("Введите размер массива >> ");
-int array_size = Convert.ToInt32(Console.ReadLine());
-string [] data_array = fill_array(array_size);
-string [] array_solved = array_proccessing(data_array);
+int size_array = Convert.ToInt32(Console.ReadLine());
+string[] data_array = fill_array(size_array);
+string[] array_solved = array_proccessing(data_array);
 print_array(array_solved);
